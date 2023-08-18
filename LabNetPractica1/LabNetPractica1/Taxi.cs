@@ -16,7 +16,7 @@ namespace LabNetPractica1
 
         public override int AgregarPasajeros(int pasajeros)
         {
-            return pasajeros += pasajeros;
+            return Pasajeros += pasajeros;
         }
         public override void EliminarPasajeros()
         {

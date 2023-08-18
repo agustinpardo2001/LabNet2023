@@ -39,7 +39,8 @@ namespace LabNetPractica1
                     Console.WriteLine("Escoja un Medio de Transporte:\n" +
                                   "Presione 1 para Taxi\n" +
                                   "Presione 2 para Omnibus\n" +
-                                  "Presione 3 para Eliminar\n");
+                                  "Presione 3 para Eliminar\n"+
+                                  "Presione 4 para la lista de pasajeros\n");
                     int opciones = Convert.ToInt32(Console.ReadLine());
 
                     switch (opciones)
@@ -200,6 +201,26 @@ namespace LabNetPractica1
                             Console.WriteLine("Todo vacio");
                             Console.WriteLine("");
                             break;
+                        case 4: 
+                            Console.Clear();
+                            Console.WriteLine("Cantidad de pasajeros por transporte");
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.WriteLine(
+                                $"Lista de Taxis:\n" +
+                                $"El {Taxi1.Coche}: lleva {Taxi1.Pasajeros} pasajeros.\n" +
+                                $"El {Taxi2.Coche}: lleva {Taxi2.Pasajeros} pasajeros.\n" +
+                                $"El {Taxi3.Coche}: lleva {Taxi3.Pasajeros} pasajeros.\n" +
+                                $"El {Taxi4.Coche}: lleva {Taxi4.Pasajeros} pasajeros.\n" +
+                                $"El {Taxi5.Coche}: lleva {Taxi5.Pasajeros} pasajeros.\n" +
+
+                                $"Lista de Omnibus:\n" +
+                                $"La linea {Omnibus1.Linea}: lleva {Omnibus1.Pasajeros} pasajeros.\n" +
+                                $"La linea {Omnibus2.Linea}: lleva {Omnibus2.Pasajeros} pasajeros.\n" +
+                                $"La linea {Omnibus3.Linea}: lleva {Omnibus3.Pasajeros} pasajeros.\n" +
+                                $"La linea {Omnibus4.Linea}: lleva {Omnibus4.Pasajeros} pasajeros.\n" +
+                                $"La linea {Omnibus5.Linea}: lleva {Omnibus5.Pasajeros} pasajeros.\n" 
+                                );
+                            break;
 
                     }
 
@@ -209,5 +230,6 @@ namespace LabNetPractica1
                     Console.WriteLine(e.Message);
                 }
             }
+            Console.ReadLine();
         }
 }   }
