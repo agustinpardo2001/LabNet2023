@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C.Exceptions", "Public\C.Ex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{CA7F940A-1F57-41CA-A885-4CD75478B1B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{EBE54EE6-C373-4C1B-A53A-2F321B0A9493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIservice", "WebAPIservice\WebAPIservice.csproj", "{863A9AFE-A9D5-4D1D-B91E-4DBE30260DB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{CA7F940A-1F57-41CA-A885-4CD75478B1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA7F940A-1F57-41CA-A885-4CD75478B1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA7F940A-1F57-41CA-A885-4CD75478B1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBE54EE6-C373-4C1B-A53A-2F321B0A9493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBE54EE6-C373-4C1B-A53A-2F321B0A9493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBE54EE6-C373-4C1B-A53A-2F321B0A9493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBE54EE6-C373-4C1B-A53A-2F321B0A9493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863A9AFE-A9D5-4D1D-B91E-4DBE30260DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863A9AFE-A9D5-4D1D-B91E-4DBE30260DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863A9AFE-A9D5-4D1D-B91E-4DBE30260DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863A9AFE-A9D5-4D1D-B91E-4DBE30260DB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

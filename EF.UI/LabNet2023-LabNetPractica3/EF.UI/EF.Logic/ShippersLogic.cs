@@ -46,7 +46,7 @@ namespace EF.Logic
         {
             var shippersDelete = context.Shippers.Find(id);
 
-            if (shippersDelete != null)
+            if (shippersDelete == null)
             {
                 throw new ShipperNullException();
             }
@@ -60,7 +60,7 @@ namespace EF.Logic
         {
             var shippersUpdate = context.Shippers.Find(shippers.ShipperID);
 
-            if (shippersUpdate != null)
+            if (shippersUpdate == null)
             {
                 throw new ShipperNullException();
             }
